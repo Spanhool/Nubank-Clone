@@ -11,6 +11,12 @@
   box-sizing: border-box;
 }
 
+/* Evita rolagem horizontal durante os deslocamentos das animações. */
+html,
+body {
+  overflow-x: clip;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--cor-terciaria);
